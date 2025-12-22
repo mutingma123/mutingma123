@@ -9,4 +9,6 @@
 - ⚡ Fun fact: Achieved 20.1% improvement in EV market forecasting accuracy and optimized traffic for 14,400 vehicles/hour.
 
 ## CV
-<embed src="CV/DonMa.pdf" width="100%" height="600px" type="application/pdf">
+
+![CV Preview - Page 1](CV/CV_preview-1.png)
+![CV Preview - Page 2](CV/CV_preview-2.png)
