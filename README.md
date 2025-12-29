@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![Profile Views](https://komarev.com/ghpvc/?username=mutingma123&color=blue)
+
 - 🔭 I’m currently working on Ph.D. in Operations Management at University of Alabama, developing primal-dual optimization frameworks for manufacturer coopetition and Nash equilibrium analysis in EV market transitions.
 - 🌱 I’m currently learning advanced optimization theory, game theory, and stochastic modeling.
 - 👯 I’m looking to collaborate on research in operations research, predictive analytics, and sustainable technology transitions.
