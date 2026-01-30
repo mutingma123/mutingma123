@@ -14,3 +14,4 @@
 
 ![CV Preview - Page 1](CV/CV_preview-1.png)
 ![CV Preview - Page 2](CV/CV_preview-2.png)
+![CV Preview - Page 3](CV/CV_preview-3.png)
