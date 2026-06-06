@@ -1,10 +1,10 @@
 <h1 align="center">Muting (Don) Ma</h1>
 
 <p align="center">
-  Operations Management Ph.D. researcher | Optimization, stochastic modeling, game theory, and predictive analytics
+  Operations Research Ph.D. researcher | Optimization, stochastic modeling, game theory, and predictive analytics with applications in Connected, Autonomous, Shared, and Electric (CASE) vehicle ecosystems
   <br>
   Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a>
-  <br>
+  <br><br>
   <img src="https://komarev.com/ghpvc/?username=mutingma123&color=blue" alt="Profile views">
 </p>
 
@@ -42,18 +42,20 @@
       <strong>Deterministic optimization.</strong> Linear systems, polyhedral geometry, simplex search, duality, KKT conditions, and Farkas certificates support my optimization modeling work.
     </td>
     <td width="50%" valign="top">
-      <img src="assets/readme/om603-cutting-plane-concept.png" alt="Cutting plane concept for integer optimization" width="100%">
-      <strong>Integer and combinatorial optimization.</strong> I work with formulation strength, integer hulls, relaxations, branching, branch-and-cut, decomposition, and dominance-pruned computation.
+      <img src="assets/readme/ec660-payoff-heatmap.png" alt="Payoff heatmap for strategic system sensitivity" width="100%">
+      <strong>Strategic systems.</strong> Strategic-form, extensive-form, Bayesian, repeated, and auction games help me model coopetition, policy-sensitive adoption, and equilibrium incentives.
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <img src="assets/readme/om601-convergence-theorems.png" alt="Monotone convergence, Fatou lemma, and dominated convergence comparison" width="100%">
       <strong>Stochastic modeling and control.</strong> Probability spaces, convergence theorems, stochastic processes, queues, dynamic programming, and Markov decision processes shape my uncertainty analysis.
     </td>
-    <td width="50%" valign="top">
-      <img src="assets/readme/ec660-payoff-heatmap.png" alt="Payoff heatmap for strategic system sensitivity" width="100%">
-      <strong>Strategic systems.</strong> Strategic-form, extensive-form, Bayesian, repeated, and auction games help me model coopetition, policy-sensitive adoption, and equilibrium incentives.
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <img src="assets/readme/om603-cutting-plane-concept.png" alt="Cutting plane concept for integer optimization" width="100%">
+      <strong>Integer and combinatorial optimization.</strong> I work with formulation strength, integer hulls, relaxations, branching, branch-and-cut, decomposition, and dominance-pruned computation.
     </td>
   </tr>
   <tr>
