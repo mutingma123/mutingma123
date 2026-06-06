@@ -40,7 +40,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="77%">
+      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="78%">
       <strong>Deterministic optimization.</strong> Linear systems, polyhedral geometry, simplex search, duality, KKT conditions, and Farkas certificates support my optimization modeling work.
     </td>
     <td width="50%" valign="top">
