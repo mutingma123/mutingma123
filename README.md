@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/readme/c2slm-ev-demand-forecasting.png" alt="Correlation-based clustering and sparse learning model for EV demand forecasting" width="80%">
+      <img src="assets/readme/c2slm-ev-demand-forecasting.png" alt="Correlation-based clustering and sparse learning model for EV demand forecasting" width="100%">
       <strong>EV demand learning.</strong> I build sparse panel-learning and correlation-based clustering models to identify stable electric-vehicle adoption drivers and improve market forecasting.
     </td>
     <td width="50%" valign="top">
@@ -38,7 +38,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="100%">
+      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="80%">
       <strong>Deterministic optimization.</strong> Linear systems, polyhedral geometry, simplex search, duality, KKT conditions, and Farkas certificates support my optimization modeling work.
     </td>
     <td width="50%" valign="top">
