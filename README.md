@@ -1,7 +1,7 @@
 <h1 align="center">Muting (Don) Ma</h1>
 
 <p align="center">
-  Operations Research Ph.D. researcher | Optimization, stochastic modeling, game theory, and predictive analytics with applications in Connected, Autonomous, Shared, and Electric (CASE) vehicle ecosystems
+  Ph.D. researcher in optimization, stochastic modeling, game theory, and predictive analytics with applications in <strong>Connected, Autonomous, Shared, and Electric (CASE)</strong> vehicle ecosystems
   <br>
   Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a>
   <br><br>
@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/readme/c2slm-ev-demand-forecasting.png" alt="Correlation-based clustering and sparse learning model for EV demand forecasting" width="100%">
+      <img src="assets/readme/c2slm-ev-demand-forecasting.png" alt="Correlation-based clustering and sparse learning model for EV demand forecasting" width="80%">
       <strong>EV demand learning.</strong> I build sparse panel-learning and correlation-based clustering models to identify stable electric-vehicle adoption drivers and improve market forecasting.
     </td>
     <td width="50%" valign="top">
