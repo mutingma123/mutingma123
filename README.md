@@ -1,4 +1,4 @@
-<h1 align="center">Muting (Don) Ma</h1>
+<h1 align="center">Muting (Don) Ma<br>马牧亭</h1>
 
 <p align="center">
   Ph.D. researcher in optimization, stochastic modeling, game theory, and predictive analytics with applications in <strong>Connected, Autonomous, Shared, and Electric (CASE)</strong> vehicle ecosystems
