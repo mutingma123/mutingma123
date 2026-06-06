@@ -5,6 +5,8 @@
   <br>
   Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a>
   <br><br>
+  <em><strong>I welcome any constructive comments, suggestions, and collaboration opportunities. Please feel free to reach out if you have any questions or would like to discuss potential research partnerships.</strong></em>
+  <br><br>
   <img src="https://komarev.com/ghpvc/?username=mutingma123&color=blue" alt="Profile views">
 </p>
 
@@ -38,7 +40,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="80%">
+      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="75%">
       <strong>Deterministic optimization.</strong> Linear systems, polyhedral geometry, simplex search, duality, KKT conditions, and Farkas certificates support my optimization modeling work.
     </td>
     <td width="50%" valign="top">
