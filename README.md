@@ -3,7 +3,7 @@
 <p align="center">
   Ph.D. researcher in optimization, stochastic modeling, game theory, and predictive analytics with applications in <strong>Connected, Autonomous, Shared, and Electric (CASE)</strong> vehicle ecosystems
   <br>
-  Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a>
+  Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=Swl-hUcAAAAJ">Google Scholar</a>
   <br><br>
   <em><strong>I welcome any constructive comments, suggestions, and collaboration opportunities. Please feel free to reach out if you have any questions or would like to discuss potential research partnerships.</strong></em>
   <br><br>
