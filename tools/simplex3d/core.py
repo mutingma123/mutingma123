@@ -1,12 +1,13 @@
 """
-core.py -- OM 600 decomposition-method Simplex, in EXACT rational arithmetic.
+core.py -- Decomposition-method (feasible-direction) Simplex, in EXACT rational
+arithmetic.
 
 This is the single source of mathematical truth for both outputs
 (the README GIF and the interactive HTML page).  Every quantity shown to the
 viewer is computed here with Python's `fractions.Fraction`, so nothing is a
 floating-point approximation.
 
-Method (exactly as taught in OM 600, Exam 3 "SimplexAlgorithm" notes):
+Method (the feasible-direction / decomposition formulation):
 
     standard form        max c^T x  s.t.  A x = b,  x >= 0
     basis                B = m linearly independent columns of A
@@ -30,7 +31,7 @@ from scipy.spatial import ConvexHull
 
 
 # --------------------------------------------------------------------------- #
-#  The linear program (OM 600 standard form data)                             #
+#  The linear program (standard-form data)                                    #
 # --------------------------------------------------------------------------- #
 #   max  3 x1 + 2 x2 + 1 x3
 #   s.t.   x1                      <= 4      (-> slack s1)
@@ -135,7 +136,7 @@ def colvec_tex(vals):
 
 
 # --------------------------------------------------------------------------- #
-#  The simplex algorithm -- records every OM 600 step                         #
+#  The simplex algorithm -- records every step                                #
 # --------------------------------------------------------------------------- #
 def solve_and_record():
     A, b, c, m, n = build_standard_form()

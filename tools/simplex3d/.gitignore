@@ -1,5 +1,7 @@
-# Build artifacts — canonical copies live in assets/readme/ and docs/simplex3d/
-om600-simplex-3d.gif
-om600-simplex-3d.mp4
+# Build artifacts — published copies live in assets/readme/ and the
+# mutingma123.github.io repo (simplex3d/).
+simplex-polytope-3d.gif
+simplex-polytope-3d.mp4
 *.opt.gif
+index.html
 __pycache__/

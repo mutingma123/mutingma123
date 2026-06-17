@@ -1,5 +1,5 @@
 """
-make_gif.py -- render the looping README animation of the OM 600 simplex walk.
+make_gif.py -- render the looping README animation of the simplex walk.
 
 Reads steps.json (produced by core.py) and renders a 3D matplotlib animation:
 the truncated-cube feasible polytope, every extreme point, and the simplex
@@ -119,7 +119,7 @@ cap_text = fig.text(0.5, 0.075, "", ha="center", va="center", color=TXT,
 title = fig.text(0.5, 0.955, r"Simplex Algorithm on a Convex Polytope in $\mathbb{R}^3$",
                  ha="center", va="center", color=TXT, fontsize=15, fontweight="bold")
 subtitle = fig.text(0.5, 0.915,
-                    r"OM 600 decomposition method:  $\max\ 3x_1+2x_2+x_3$  "
+                    r"Decomposition (feasible-direction) method:  $\max\ 3x_1+2x_2+x_3$  "
                     r"s.t.  $x_i\leq 4,\ \ x_1+x_2+x_3\leq 9,\ \ x\geq 0$",
                     ha="center", va="center", color=MUTE, fontsize=10)
 
@@ -200,8 +200,8 @@ def _main():
     anim = FuncAnimation(fig, update, init_func=init, frames=N_FRAMES,
                          interval=55, blit=False)
 
-    gif_path = os.path.join(HERE, "om600-simplex-3d.gif")
-    mp4_path = os.path.join(HERE, "om600-simplex-3d.mp4")
+    gif_path = os.path.join(HERE, "simplex-polytope-3d.gif")
+    mp4_path = os.path.join(HERE, "simplex-polytope-3d.mp4")
 
     print(f"rendering {N_FRAMES} frames ...")
     anim.save(gif_path, writer=PillowWriter(fps=18))
@@ -214,7 +214,7 @@ def _main():
         print("mp4 skipped:", e)
 
     # optimise the GIF with ImageMagick if available (palette + layer optimise)
-    opt_gif = os.path.join(HERE, "om600-simplex-3d.opt.gif")
+    opt_gif = os.path.join(HERE, "simplex-polytope-3d.opt.gif")
     try:
         subprocess.run(
             ["convert", gif_path, "-coalesce", "-fuzz", "3%",

@@ -14,14 +14,14 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = json.load(open(os.path.join(HERE, "steps.json")))
-OUT = os.path.join(HERE, "..", "..", "docs", "simplex3d", "index.html")
+OUT = os.path.join(HERE, "index.html")  # local build artifact; copied to the published repo
 
 TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Simplex on a Convex Polytope in &#8477;&#179; &middot; OM 600</title>
+<title>Simplex on a Convex Polytope in &#8477;&#179;</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
       integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
@@ -87,7 +87,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <h1>The Simplex Algorithm Traversing a Convex Polytope in &#8477;&#179;</h1>
   <div class="lp" id="lp-obj"></div>
   <div class="lp" id="lp-con"></div>
-  <div class="sub">OM&nbsp;600 &middot; Linear Programming &mdash; decomposition / feasible-direction method.
+  <div class="sub">Linear programming &mdash; the decomposition / feasible-direction method.
      The algorithm walks vertex&#8209;to&#8209;vertex along edges of the feasible region, improving
      <span id="zinline"></span> at each pivot until no improving direction remains.</div>
 </header>
@@ -128,7 +128,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   direction&nbsp;$v^s=[-B^{-1}A_s;\,e_s]$;
   ratio test&nbsp;$\lambda^*=\min_{i:\,\bar a_{is}>0}\bar b_i/\bar a_{is}$;
   update&nbsp;$x^{\text{new}}=x^{\text{old}}+\lambda^*v^s$.
-  <br>Generated from the OM&nbsp;600 course notes &middot; rendered with Plotly + KaTeX.
+  <br>Rendered with Plotly + KaTeX.
 </footer>
 
 <script id="data" type="application/json">__DATA__</script>
