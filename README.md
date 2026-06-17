@@ -40,8 +40,10 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/readme/om600-octahedron-facets.png" alt="Polyhedral feasible region with vertices and facets" width="78%">
-      <strong>Deterministic optimization.</strong> Linear systems, polyhedral geometry, simplex search, duality, KKT conditions, and Farkas certificates support my optimization modeling work.
+      <a href="https://mutingma123.github.io/simplex3d/" title="Open the interactive 3D simplex demo">
+        <img src="assets/readme/om600-simplex-3d.gif" alt="Simplex algorithm traversing the vertices of a convex polytope in 3D, using the OM 600 decomposition method" width="100%">
+      </a>
+      <strong>Deterministic optimization.</strong> Linear systems, polyhedral geometry, simplex search, duality, KKT conditions, and Farkas certificates support my optimization modeling work. The animation traces the OM&nbsp;600 decomposition simplex climbing extreme points of a polytope in &#8477;&#179; &mdash; <a href="https://mutingma123.github.io/simplex3d/"><strong>open the interactive, step-by-step 3D demo &#9654;</strong></a>.
     </td>
     <td width="50%" valign="top">
       <img src="assets/readme/ec660-payoff-heatmap.png" alt="Payoff heatmap for strategic system sensitivity" width="100%">

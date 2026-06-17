@@ -1,0 +1,5 @@
+# Build artifacts — canonical copies live in assets/readme/ and docs/simplex3d/
+om600-simplex-3d.gif
+om600-simplex-3d.mp4
+*.opt.gif
+__pycache__/

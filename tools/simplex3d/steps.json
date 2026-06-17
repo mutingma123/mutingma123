@@ -1,0 +1,525 @@
+{
+  "lp": {
+    "objective_tex": "\\max\\; z = 3x_1 + 2x_2 + x_3",
+    "constraints_tex": [
+      "x_1 \\le 4",
+      "x_2 \\le 4",
+      "x_3 \\le 4",
+      "x_1 + x_2 + x_3 \\le 9",
+      "x_1,x_2,x_3 \\ge 0"
+    ]
+  },
+  "geometry": {
+    "vertices": [
+      [
+        1.0,
+        4.0,
+        4.0
+      ],
+      [
+        4.0,
+        1.0,
+        4.0
+      ],
+      [
+        4.0,
+        4.0,
+        1.0
+      ],
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        4.0,
+        0.0,
+        4.0
+      ],
+      [
+        4.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0,
+        4.0
+      ],
+      [
+        0.0,
+        4.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "faces": [
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        4,
+        1,
+        0,
+        6,
+        8
+      ],
+      [
+        9,
+        8,
+        6,
+        7
+      ],
+      [
+        5,
+        9,
+        7,
+        3
+      ],
+      [
+        4,
+        8,
+        9,
+        5
+      ],
+      [
+        7,
+        6,
+        0,
+        2,
+        3
+      ],
+      [
+        3,
+        2,
+        1,
+        4,
+        5
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "objective": [
+      3.0,
+      2.0,
+      1.0
+    ]
+  },
+  "steps": [
+    {
+      "iter": 1,
+      "point": [
+        "0",
+        "0",
+        "0"
+      ],
+      "point_f": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "z": "0",
+      "z_f": 0.0,
+      "basis": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "basis_tex": "\\{s_1,s_2,s_3,s_4\\}",
+      "nonbasis_tex": "\\{x_1,x_2,x_3\\}",
+      "xB_labeled_tex": "x_B=\\begin{bmatrix}s_1\\\\s_2\\\\s_3\\\\s_4\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\4\\\\9\\end{bmatrix}",
+      "y_tex": "(0,\\,0,\\,0,\\,0)",
+      "rc_tex": "\\bar c_{x_1}=3,\\quad \\bar c_{x_2}=2,\\quad \\bar c_{x_3}=1",
+      "status": "pivot",
+      "entering": "x1",
+      "leaving": "s1",
+      "entering_tex": "x_1",
+      "leaving_tex": "s_1",
+      "lambda": "4",
+      "lambda_plain": "4",
+      "rc_pairs": [
+        [
+          "x_1",
+          "3"
+        ],
+        [
+          "x_2",
+          "2"
+        ],
+        [
+          "x_3",
+          "1"
+        ]
+      ],
+      "dir3": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "next_point_f": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "title": "Iteration 1: vertex \\;x^{(0)}=(0,\\,0,\\,0),\\; z=0",
+      "blocks": [
+        {
+          "label": "Decompose current BFS",
+          "tex": "B=\\{s_1,s_2,s_3,s_4\\},\\;\\; N=\\{x_1,x_2,x_3\\},\\;\\; x_B=\\begin{bmatrix}s_1\\\\s_2\\\\s_3\\\\s_4\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\4\\\\9\\end{bmatrix}"
+        },
+        {
+          "label": "Reduced costs &nbsp;$\\bar c_j=c_j-c_B^\\top B^{-1}A_j=\\langle c,v^j\\rangle$",
+          "tex": "\\bar c_{x_1}=3,\\quad \\bar c_{x_2}=2,\\quad \\bar c_{x_3}=1"
+        },
+        {
+          "label": "Entering variable (Dantzig rule)",
+          "tex": "s=\\arg\\max_{j\\in N}\\{\\bar c_j:\\bar c_j>0\\}\\;\\Rightarrow\\; x_1\\ \\text{enters}"
+        },
+        {
+          "label": "Feasible direction &nbsp;$v^s=\\big[-B^{-1}A_s;\\,e_s\\big]$",
+          "tex": "v^{x_1}=\\begin{bmatrix}1\\\\0\\\\0\\\\-1\\\\0\\\\0\\\\-1\\end{bmatrix}\\;\\text{(order }x_1,x_2,x_3,s_1,s_2,s_3,s_4\\text{)}"
+        },
+        {
+          "label": "Minimum-ratio test &nbsp;$\\lambda^\\ast=\\min_{i:\\,\\bar a_{is}>0}\\bar b_i/\\bar a_{is}$",
+          "tex": "\\lambda^\\ast=\\min\\{\\tfrac{4}{1}=4,\\;\\tfrac{9}{1}=9\\}=4\\;\\Rightarrow\\;s_1\\ \\text{leaves}"
+        },
+        {
+          "label": "Pivot (move to adjacent extreme point)",
+          "tex": "x^{(1)}=x^{(0)}+\\lambda^\\ast v^{x_1}=(4,\\,0,\\,0)"
+        }
+      ],
+      "narrative": "Reduced cost of x1 is the steepest positive ascent, so it enters; the ratio test stops at \u03bb*=4 where s1 hits zero and leaves. We slide along that edge to the next vertex."
+    },
+    {
+      "iter": 2,
+      "point": [
+        "4",
+        "0",
+        "0"
+      ],
+      "point_f": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "z": "12",
+      "z_f": 12.0,
+      "basis": [
+        "x1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "basis_tex": "\\{x_1,s_2,s_3,s_4\\}",
+      "nonbasis_tex": "\\{x_2,x_3,s_1\\}",
+      "xB_labeled_tex": "x_B=\\begin{bmatrix}x_1\\\\s_2\\\\s_3\\\\s_4\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\4\\\\5\\end{bmatrix}",
+      "y_tex": "(3,\\,0,\\,0,\\,0)",
+      "rc_tex": "\\bar c_{x_2}=2,\\quad \\bar c_{x_3}=1,\\quad \\bar c_{s_1}=-3",
+      "status": "pivot",
+      "entering": "x2",
+      "leaving": "s2",
+      "entering_tex": "x_2",
+      "leaving_tex": "s_2",
+      "lambda": "4",
+      "lambda_plain": "4",
+      "rc_pairs": [
+        [
+          "x_2",
+          "2"
+        ],
+        [
+          "x_3",
+          "1"
+        ],
+        [
+          "s_1",
+          "-3"
+        ]
+      ],
+      "dir3": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "next_point_f": [
+        4.0,
+        4.0,
+        0.0
+      ],
+      "title": "Iteration 2: vertex \\;x^{(1)}=(4,\\,0,\\,0),\\; z=12",
+      "blocks": [
+        {
+          "label": "Decompose current BFS",
+          "tex": "B=\\{x_1,s_2,s_3,s_4\\},\\;\\; N=\\{x_2,x_3,s_1\\},\\;\\; x_B=\\begin{bmatrix}x_1\\\\s_2\\\\s_3\\\\s_4\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\4\\\\5\\end{bmatrix}"
+        },
+        {
+          "label": "Reduced costs &nbsp;$\\bar c_j=c_j-c_B^\\top B^{-1}A_j=\\langle c,v^j\\rangle$",
+          "tex": "\\bar c_{x_2}=2,\\quad \\bar c_{x_3}=1,\\quad \\bar c_{s_1}=-3"
+        },
+        {
+          "label": "Entering variable (Dantzig rule)",
+          "tex": "s=\\arg\\max_{j\\in N}\\{\\bar c_j:\\bar c_j>0\\}\\;\\Rightarrow\\; x_2\\ \\text{enters}"
+        },
+        {
+          "label": "Feasible direction &nbsp;$v^s=\\big[-B^{-1}A_s;\\,e_s\\big]$",
+          "tex": "v^{x_2}=\\begin{bmatrix}0\\\\1\\\\0\\\\0\\\\-1\\\\0\\\\-1\\end{bmatrix}\\;\\text{(order }x_1,x_2,x_3,s_1,s_2,s_3,s_4\\text{)}"
+        },
+        {
+          "label": "Minimum-ratio test &nbsp;$\\lambda^\\ast=\\min_{i:\\,\\bar a_{is}>0}\\bar b_i/\\bar a_{is}$",
+          "tex": "\\lambda^\\ast=\\min\\{\\tfrac{4}{1}=4,\\;\\tfrac{5}{1}=5\\}=4\\;\\Rightarrow\\;s_2\\ \\text{leaves}"
+        },
+        {
+          "label": "Pivot (move to adjacent extreme point)",
+          "tex": "x^{(2)}=x^{(1)}+\\lambda^\\ast v^{x_2}=(4,\\,4,\\,0)"
+        }
+      ],
+      "narrative": "Reduced cost of x2 is the steepest positive ascent, so it enters; the ratio test stops at \u03bb*=4 where s2 hits zero and leaves. We slide along that edge to the next vertex."
+    },
+    {
+      "iter": 3,
+      "point": [
+        "4",
+        "4",
+        "0"
+      ],
+      "point_f": [
+        4.0,
+        4.0,
+        0.0
+      ],
+      "z": "20",
+      "z_f": 20.0,
+      "basis": [
+        "x1",
+        "x2",
+        "s3",
+        "s4"
+      ],
+      "basis_tex": "\\{x_1,x_2,s_3,s_4\\}",
+      "nonbasis_tex": "\\{x_3,s_1,s_2\\}",
+      "xB_labeled_tex": "x_B=\\begin{bmatrix}x_1\\\\x_2\\\\s_3\\\\s_4\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\4\\\\1\\end{bmatrix}",
+      "y_tex": "(3,\\,2,\\,0,\\,0)",
+      "rc_tex": "\\bar c_{x_3}=1,\\quad \\bar c_{s_1}=-3,\\quad \\bar c_{s_2}=-2",
+      "status": "pivot",
+      "entering": "x3",
+      "leaving": "s4",
+      "entering_tex": "x_3",
+      "leaving_tex": "s_4",
+      "lambda": "1",
+      "lambda_plain": "1",
+      "rc_pairs": [
+        [
+          "x_3",
+          "1"
+        ],
+        [
+          "s_1",
+          "-3"
+        ],
+        [
+          "s_2",
+          "-2"
+        ]
+      ],
+      "dir3": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "next_point_f": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "title": "Iteration 3: vertex \\;x^{(2)}=(4,\\,4,\\,0),\\; z=20",
+      "blocks": [
+        {
+          "label": "Decompose current BFS",
+          "tex": "B=\\{x_1,x_2,s_3,s_4\\},\\;\\; N=\\{x_3,s_1,s_2\\},\\;\\; x_B=\\begin{bmatrix}x_1\\\\x_2\\\\s_3\\\\s_4\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\4\\\\1\\end{bmatrix}"
+        },
+        {
+          "label": "Reduced costs &nbsp;$\\bar c_j=c_j-c_B^\\top B^{-1}A_j=\\langle c,v^j\\rangle$",
+          "tex": "\\bar c_{x_3}=1,\\quad \\bar c_{s_1}=-3,\\quad \\bar c_{s_2}=-2"
+        },
+        {
+          "label": "Entering variable (Dantzig rule)",
+          "tex": "s=\\arg\\max_{j\\in N}\\{\\bar c_j:\\bar c_j>0\\}\\;\\Rightarrow\\; x_3\\ \\text{enters}"
+        },
+        {
+          "label": "Feasible direction &nbsp;$v^s=\\big[-B^{-1}A_s;\\,e_s\\big]$",
+          "tex": "v^{x_3}=\\begin{bmatrix}0\\\\0\\\\1\\\\0\\\\0\\\\-1\\\\-1\\end{bmatrix}\\;\\text{(order }x_1,x_2,x_3,s_1,s_2,s_3,s_4\\text{)}"
+        },
+        {
+          "label": "Minimum-ratio test &nbsp;$\\lambda^\\ast=\\min_{i:\\,\\bar a_{is}>0}\\bar b_i/\\bar a_{is}$",
+          "tex": "\\lambda^\\ast=\\min\\{\\tfrac{4}{1}=4,\\;\\tfrac{1}{1}=1\\}=1\\;\\Rightarrow\\;s_4\\ \\text{leaves}"
+        },
+        {
+          "label": "Pivot (move to adjacent extreme point)",
+          "tex": "x^{(3)}=x^{(2)}+\\lambda^\\ast v^{x_3}=(4,\\,4,\\,1)"
+        }
+      ],
+      "narrative": "Reduced cost of x3 is the steepest positive ascent, so it enters; the ratio test stops at \u03bb*=1 where s4 hits zero and leaves. We slide along that edge to the next vertex."
+    },
+    {
+      "iter": 4,
+      "point": [
+        "4",
+        "4",
+        "1"
+      ],
+      "point_f": [
+        4.0,
+        4.0,
+        1.0
+      ],
+      "z": "21",
+      "z_f": 21.0,
+      "basis": [
+        "x1",
+        "x2",
+        "s3",
+        "x3"
+      ],
+      "basis_tex": "\\{x_1,x_2,s_3,x_3\\}",
+      "nonbasis_tex": "\\{s_1,s_2,s_4\\}",
+      "xB_labeled_tex": "x_B=\\begin{bmatrix}x_1\\\\x_2\\\\s_3\\\\x_3\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\3\\\\1\\end{bmatrix}",
+      "y_tex": "(2,\\,1,\\,0,\\,1)",
+      "rc_tex": "\\bar c_{s_1}=-2,\\quad \\bar c_{s_2}=-1,\\quad \\bar c_{s_4}=-1",
+      "status": "optimal",
+      "rc_pairs": [
+        [
+          "s_1",
+          "-2"
+        ],
+        [
+          "s_2",
+          "-1"
+        ],
+        [
+          "s_4",
+          "-1"
+        ]
+      ],
+      "title": "Optimal vertex \\;x^\\ast=(4,\\,4,\\,1)",
+      "blocks": [
+        {
+          "label": "Basis &amp; BFS",
+          "tex": "B=\\{x_1,x_2,s_3,x_3\\},\\quad x_B=\\begin{bmatrix}x_1\\\\x_2\\\\s_3\\\\x_3\\end{bmatrix}=B^{-1}b=\\begin{bmatrix}4\\\\4\\\\3\\\\1\\end{bmatrix},\\quad z=21"
+        },
+        {
+          "label": "Optimality test (maximization)",
+          "tex": "\\bar c_{s_1}=-2,\\quad \\bar c_{s_2}=-1,\\quad \\bar c_{s_4}=-1"
+        },
+        {
+          "label": "Certificate",
+          "tex": "\\bar c_j=\\langle c,v^j\\rangle\\le 0\\ \\ \\forall j\\in N\\;\\Longrightarrow\\; \\textbf{optimal.}"
+        },
+        {
+          "label": "Dual solution (shadow prices)",
+          "tex": "y^\\ast=c_B^\\top B^{-1}=(2,\\,1,\\,0,\\,1),\\qquad c^\\top x^\\ast=b^\\top y^\\ast=21"
+        }
+      ],
+      "narrative": "All reduced costs are non-positive, so no feasible direction improves the objective. This extreme point is optimal."
+    }
+  ],
+  "path_idx": [
+    9,
+    5,
+    3,
+    2
+  ],
+  "path_pts": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      4.0,
+      0.0,
+      0.0
+    ],
+    [
+      4.0,
+      4.0,
+      0.0
+    ],
+    [
+      4.0,
+      4.0,
+      1.0
+    ]
+  ]
+}
