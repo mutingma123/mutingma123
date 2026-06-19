@@ -6,8 +6,7 @@
   Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=Swl-hUcAAAAJ">Google Scholar</a> | <a href="https://www.youtube.com/@donma5996/featured">YouTube</a>
   <br><br>
   <em><strong>I welcome any constructive comments, suggestions, and collaboration opportunities. Please feel free to reach out if you have any questions or would like to discuss potential research partnerships.</strong></em>
-  <br><br>
-  <img src="https://komarev.com/ghpvc/?username=mutingma123&color=blue" alt="Profile views">
+  <br>
 </p>
 
 ## Research Bio
