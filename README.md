@@ -1,6 +1,10 @@
 <h1 align="center">Muting (Don) Ma<br>马牧亭</h1>
 
 <p align="center">
+  <a href="CV/Muting_Don_Ma_Academia.pdf"><strong>[CV]</strong></a>
+</p>
+
+<p align="center">
   Ph.D. researcher in optimization, stochastic modeling, game theory, and predictive analytics with applications including (but not limited to) <strong>Connected, Autonomous, Shared, and Electric (CASE)</strong> vehicle and transportation ecosystems
   <br>
   Contact: <a href="mailto:muting.ma@outlook.com">muting.ma@outlook.com</a> | <a href="https://linkedin.com/in/mutingma">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=Swl-hUcAAAAJ">Google Scholar</a> | <a href="https://www.youtube.com/@donma5996/featured">YouTube</a>
